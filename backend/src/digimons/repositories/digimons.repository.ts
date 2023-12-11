@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { PrismaService } from 'src/prisma/prisma.service';
 import { DigimonEntity } from '../entities/digimon.entity';
+import { PrismaService } from '../../prisma/prisma.service';
 
 @Injectable()
 export class DigimonsRepository {
@@ -24,7 +24,7 @@ export class DigimonsRepository {
           contains: name,
         },
         level: {
-          contains: level,
+          startsWith: level,
         },
       },
       orderBy: {
