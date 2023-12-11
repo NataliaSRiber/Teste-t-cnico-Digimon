@@ -10,8 +10,6 @@ export const SearchContext = createContext({
   setApiCall: (value: boolean) => {},
   selectedLevel: '',
   setSelectedLevel: (value: string) => {},
-  isDropdownOpen: false,
-  setIsDropdownOpen: (value: boolean) => {},
 })
 
 interface ProviderProps {
@@ -22,7 +20,6 @@ export function SearchContextProvider({ children }: ProviderProps) {
   const [search, setSearch] = useState('')
   const [apiCall, setApiCall] = useState(true)
   const [selectedLevel, setSelectedLevel] = useState('')
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   return (
     <SearchContext.Provider
@@ -33,8 +30,6 @@ export function SearchContextProvider({ children }: ProviderProps) {
         setApiCall,
         selectedLevel,
         setSelectedLevel,
-        isDropdownOpen,
-        setIsDropdownOpen,
       }}
     >
       {children}
