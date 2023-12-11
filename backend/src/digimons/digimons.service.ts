@@ -5,8 +5,15 @@ import { DigimonsRepository } from './repositories/digimons.repository';
 export class DigimonsService {
   constructor(private readonly repository: DigimonsRepository) {}
 
-  findAll() {
-    return this.repository.findAll();
+  async findAll() {
+    const getLevels = await this.repository.findAll();
+    const uniqueLevels = getLevels
+      .map(({ level }) => level)
+      .filter(
+        (level, index, levelsArray) => levelsArray.indexOf(level) === index,
+      )
+      .sort();
+    return uniqueLevels;
   }
 
   findByNameandLevel(name: string, level: string) {
