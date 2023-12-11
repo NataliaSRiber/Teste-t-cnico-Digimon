@@ -1,12 +1,18 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import { Lato } from 'next/font/google'
+import Providers from './providers'
+import { SearchContextProvider } from './contexts/search-context'
 
-const inter = Inter({ subsets: ['latin'] })
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '700', '900'],
+  display: 'swap',
+  variable: '--font-bio-rhyme',
+})
 
-export const metadata: Metadata = {
-  title: 'Digimon',
-  description: "A Digimon's search website",
+export const metadata = {
+  title: 'Digimon Search',
+  description: 'Explore and discover Digimons with our search application',
 }
 
 export default function RootLayout({
@@ -16,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-mainColor-700`}>{children}</body>
+      <body className={`${lato.className} overflow-x-hidden bg-mainColor-700`}>
+        <SearchContextProvider>
+          <Providers>{children}</Providers>
+        </SearchContextProvider>
+      </body>
     </html>
   )
 }
