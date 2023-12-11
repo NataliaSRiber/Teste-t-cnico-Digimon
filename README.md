@@ -1,7 +1,7 @@
 <h1 align="center">Digimon</h1>
 
 ## Descrição
-Bem-vindo à nossa aplicação responsiva dedicada aos fãs de Digimons! Aqui, proporcionamos uma experiência de pesquisa interativa para que você possa encontrar essas criaturas digitais. A aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
+Bem-vindo à  aplicação responsiva dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
 
 Recursos Principais:
 Barra de Pesquisa
