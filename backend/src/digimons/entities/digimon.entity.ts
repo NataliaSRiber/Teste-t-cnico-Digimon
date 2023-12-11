@@ -5,5 +5,4 @@ export class DigimonEntity implements Digimon {
   name: string;
   image: string;
   level: string;
-  createdAt: Date;
 }
