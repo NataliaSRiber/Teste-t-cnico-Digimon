@@ -20,8 +20,8 @@ Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a ba
   <a href="https://typescript.info/">
     <img src="https://img.shields.io/badge/typescript-339933?style=for-the-badge&logo=typescript&color=black" />
   </a>
-  <a href="https://pt-br.reactjs.org/docs/getting-started.html">
-    <img src="https://img.shields.io/badge/React-339933?style=for-the-badge&logo=react&color=black" />
+  <a href="https://Next-black.com/docs">
+    <img src="https://img.shields.io/badge/Next.js-339933?style=for-the-badge&logo=next.js&color=black" />
   </a>
   <a href="https://tailwindcss.com/docs">
     <img src="https://img.shields.io/badge/TailwindCSS-339933?style=for-the-badge&logo=tailwind-css&color=black" />
@@ -56,6 +56,15 @@ Para iniciar é necessário ter instalado na máquina as seguintes ferramentas:
 ```bash
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
+
+# O servidor inciará na porta:3000 - <http://localhost:3000>
+```
+<br>
+### Rodando o Back-End
+
+```bash
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start:dev
 
 # O servidor inciará na porta:3000 - <http://localhost:3000>
 ```
