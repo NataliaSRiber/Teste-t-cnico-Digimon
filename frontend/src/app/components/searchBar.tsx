@@ -13,7 +13,7 @@ export default function SearchBar() {
     useContext(SearchContext)
 
   const getDigimonsLevel = async () => {
-    const response = await api.get<string[]>('/all')
+    const response = await api.get<string[]>('/levels')
     return response.data
   }
 
@@ -91,6 +91,7 @@ export default function SearchBar() {
                 </div>
               </div>
               <button
+                id="search_button"
                 disabled={!search && !selectedLevel}
                 className="relative flex h-8 w-[90px] transform flex-row items-center justify-around overflow-hidden rounded-lg bg-mainBlue-600 p-2 text-center font-semibold text-white opacity-100 drop-shadow-lg transition-transform hover:scale-105 disabled:cursor-auto disabled:border-white disabled:opacity-50 disabled:hover:scale-100 md:h-12 md:w-[100px] md:text-lg"
                 type="submit"
