@@ -87,7 +87,7 @@ $ npx prisma db seed
 
 $ npm run start:dev
 
-# O servidor inciará na porta escolhida no arquivo env.
+# O servidor inciará na porta escolhida no arquivo .env
 ```
 <br>
 
