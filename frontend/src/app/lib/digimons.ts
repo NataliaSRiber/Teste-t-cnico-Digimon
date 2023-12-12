@@ -5,7 +5,9 @@ export async function getDigimons(context: any) {
     context
 
   try {
-    const { data } = await api.get(`?name=${search}&level=${selectedLevel}`)
+    const { data } = await api.get(
+      `/digimons?name=${search}&level=${selectedLevel}`,
+    )
     setApiCall(false)
     setSelectedLevel('')
     setSearch('')

@@ -13,7 +13,7 @@ export default function SearchBar() {
     useContext(SearchContext)
 
   const getDigimonsLevel = async () => {
-    const response = await api.get<string[]>('/levels')
+    const response = await api.get<string[]>('/digimons/levels')
     return response.data
   }
 
