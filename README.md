@@ -76,6 +76,7 @@ $ npm run dev
 # Execute a aplicação em modo de desenvolvimento
 # Acesse a pasta backend
 # Configure o arquivo .env com base no .env.template
+
 $ npm run start:dev
 
 # O servidor inciará na porta escolhida no arquivo env.
