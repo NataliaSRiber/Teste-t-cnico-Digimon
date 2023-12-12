@@ -1,17 +1,17 @@
 <h1 align="center">Digimon Search</h1>
 
 # Descrição
-Bem-vindo à  aplicação responsiva dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
+Bem-vindo à  aplicação responsiva full stack criada em Next.Js e Nest.Js dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
 
 ## Recursos Principais:
 Barra de Pesquisa
-Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do seu Digimon favorito e obtenha informações detalhadas de forma rápida e fácil.
+Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do seu Digimon favorito e obtenha informações de forma rápida e fácil.
 
 ## Filtro por Nível
-Explore Digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de Digimons associados a esse critério.
+Explore Digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de Digimons associados a esse nível.
 
 ## Pesquisas Personalizadas
-Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a barra de pesquisa e o filtro por nível. Encontre Digimons que atendam aos seus critérios específicos de maneira eficiente.
+A aplicação oferece a flexibilidade de realizar pesquisas personalizadas, combinando a barra de pesquisa e o filtro por nível. Encontre Digimons que atendam aos seus critérios específicos de maneira eficiente.
 <br><br>
 
 # Stacks de Desenvolvimento
