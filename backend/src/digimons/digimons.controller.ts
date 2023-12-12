@@ -5,7 +5,7 @@ import { DigimonsService } from './digimons.service';
 export class DigimonsController {
   constructor(private readonly digimonsService: DigimonsService) {}
 
-  @Get('all')
+  @Get('levels')
   findAll() {
     return this.digimonsService.findAll();
   }
@@ -16,9 +16,7 @@ export class DigimonsController {
     @Query('level') level: string = '',
   ) {
     const result = await this.digimonsService.findByNameandLevel(name, level);
-    if (result.length === 0) {
-      return { message: 'Digimon not found' };
-    }
+
     return result;
   }
 }
