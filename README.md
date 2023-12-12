@@ -1,20 +1,20 @@
 <h1 align="center">Digimon Search</h1>
 
-## Descrição
+# Descrição
 Bem-vindo à  aplicação responsiva dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
 
-Recursos Principais:
+## Recursos Principais:
 Barra de Pesquisa
 Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do seu Digimon favorito e obtenha informações detalhadas de forma rápida e fácil.
 
-Filtro por Nível
+## Filtro por Nível
 Explore Digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de Digimons associados a esse critério.
 
-Pesquisas Personalizadas
+## Pesquisas Personalizadas
 Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a barra de pesquisa e o filtro por nível. Encontre Digimons que atendam aos seus critérios específicos de maneira eficiente.
 <br><br>
 
-## Stacks de Desenvolvimento
+# Stacks de Desenvolvimento
 
 <div>
   <a href="https://typescript.info/">
@@ -45,14 +45,13 @@ Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a ba
 </div>
 <br>
 
-## A aplicação em nuvem
+# A aplicação em nuvem
 
-Acesse a aplicação alocada no Vercel por <a href=""> aqui<a/>.
+Acesse a aplicação alocada no Vercel por <a href="https://teste-tecnico-digimon.vercel.app/"> aqui<a/>.
 ATENÇÃO: A aplicação deve demorar um tempinho para iniciar.
 
-<br>
-
 ## Rodando a aplicação localmente
+
 ### Requisitos
 
 Para iniciar é necessário ter instalado na máquina as seguintes ferramentas:
@@ -68,7 +67,6 @@ $ npm run dev
 
 # O servidor inciará na porta:3000 - <http://localhost:3000>
 ```
-<br>
 
 ### Rodando o Back-End
 
@@ -77,10 +75,51 @@ $ npm run dev
 # Acesse a pasta backend
 # Configure o arquivo .env com base no .env.template
 
+# Exexute os comandos a seguir:
+
+$ npm install
+
+$ npx prisma generate
+
+$ npx prisma migrate dev
+
+$ npx prisma db seed
+
 $ npm run start:dev
 
 # O servidor inciará na porta escolhida no arquivo env.
 ```
 <br>
 
+### Rotas
+
+```bash 
+/digimons/levels
+```
+
+Este endpoint traz todos os níveis dos digimons disponíveis em ordem alfabética
+
+```bash 
+/digimons?name=&level= ou exemplo: /digimons?name=agumon&level=rookie
+```
+
+Este endpoint traz a informações de todos os digimons listados ou como no exemplo as informações do agumon com o nível rookie
+
 <br>
+
+## Testes
+
+### Front-End 
+
+No Front-End os testes foram relizados através do cypress e para executa-lo para rodar o comando:
+
+```bash
+npx cypress open
+```
+### Back-End 
+
+No Back-End os testes foram relizados testes e2e utilizando o jestjs
+
+```bash
+npm run test:e2e
+```
