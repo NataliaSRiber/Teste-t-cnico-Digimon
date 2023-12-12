@@ -1,4 +1,4 @@
-<h1 align="center">Digimon</h1>
+<h1 align="center">Digimon Search</h1>
 
 ## Descrição
 Bem-vindo à  aplicação responsiva dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus Digimons favoritos.
@@ -35,6 +35,12 @@ Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a ba
     <a href="https://docs.nestjs.com/">
     <img src="https://img.shields.io/badge/nestjs-339933?style=for-the-badge&logo=Nestjs&color=black" /> 
   </a>
+  <a href="https://docs.cypress.com/">
+    <img src="https://img.shields.io/badge/cypress-339933?style=for-the-badge&logo=Cypress&color=black" /> 
+  </a>
+  <a href="https://jest.io/docs/v4/">
+    <img src="https://img.shields.io/badge/jest-339933?style=for-the-badge&logo=jest&color=black" /> 
+  </a>
   
 </div>
 <br>
@@ -42,6 +48,7 @@ Oferecemos a flexibilidade de realizar pesquisas personalizadas, combinando a ba
 ## A aplicação em nuvem
 
 Acesse a aplicação alocada no Vercel por <a href=""> aqui<a/>.
+ATENÇÃO: A aplicação deve demorar um tempinho para iniciar.
 
 <br>
 
@@ -55,6 +62,8 @@ Para iniciar é necessário ter instalado na máquina as seguintes ferramentas:
 
 ```bash
 # Execute a aplicação em modo de desenvolvimento
+# Ao clonar a aplicação acesse a pasta frontend
+
 $ npm run dev
 
 # O servidor inciará na porta:3000 - <http://localhost:3000>
@@ -65,6 +74,8 @@ $ npm run dev
 
 ```bash
 # Execute a aplicação em modo de desenvolvimento
+# Acesse a pasta backend
+# Configure o arquivo .env com base no .env.template
 $ npm run start:dev
 
 # O servidor inciará na porta escolhida no arquivo env.
