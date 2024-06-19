@@ -1,7 +1,7 @@
 <h1 align="center">Digimon Search</h1>
 
 # Descrição
-Bem-vindo à  aplicação responsiva full stack criada em Next.Js e Nest.Js dedicada aos fãs de Digimons! A aplicação oferece uma pesquisa interativa para que você possa encontrar essas criaturas digitais. Além disso, a aplicação oferece recursos intuitivos para que os usuários possam realizar pesquisas personalizadas e descobrir informações sobre seus digimons favoritos.
+Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js, feita especialmente para os fãs de Digimons! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre essas criaturas digitais. Com recursos intuitivos, nossa aplicação permite realizar pesquisas personalizadas para encontrar informações sobre seus Digimons favoritos.
 
 ## Recursos Principais:
 Barra de Pesquisa:
