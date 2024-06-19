@@ -2,13 +2,13 @@
 
 # Descrição
 
-Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre digimons. Com recursos intuitivos, nossa aplicação permite realizar pesquisas personalizadas para encontrar informações sobre digimons.
+Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre digimons. Com recursos intuitivos, a aplicação permite realizar pesquisas personalizadas para encontrar informações sobre digimons.
 
 # Recursos Principais
 
 #### Barra de Pesquisa
 
-Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do digimon e obtenha informações detalhadas sobre ele.
+Utilize a barra de pesquisa para encontrar digimons específicos pelo nome. Digite o nome do digimon e obtenha informações detalhadas sobre ele.
 
 - Redirecionamento para a Página Inicial: Ao clicar na palavra "Digimon" no canto superior esquerdo, você será redirecionado à página inicial, onde todos os cards dos digimons serão exibidos.
 
@@ -20,7 +20,7 @@ Implementação de animações suaves nos cards exibidos que ativam durante a ro
 
 #### Filtro por Nível
 
-Explore digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de digimons associados a esse nível.
+Explore digimons de diferentes níveis com o menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de digimons associados a esse nível.
 
 #### Pesquisas Personalizadas
 
@@ -89,7 +89,7 @@ $ npm run dev
 
 ### Rodando o Back-End
 
-Primeiramente, é necessário instalar o MySQL Database através deste  <a href="https://dev.mysql.com/downloads/mysql"> link.<a/>
+Primeiramente, é necessário instalar o MySQL database através deste  <a href="https://dev.mysql.com/downloads/mysql"> link.<a/>
 
 Após a instalação e configuração do mysql:
 
