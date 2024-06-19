@@ -63,7 +63,7 @@ A aplicação oferece a flexibilidade de realizar pesquisas personalizadas, comb
 Acesse a aplicação alocada no Vercel por <a href="https://teste-tecnico-digimon.vercel.app/"> aqui<a/>.
 <br>
 
-ATENÇÃO: A aplicação pode demorar alguns segundos para iniciar, pois o servidor onde a API está hospedada a desativa quando fica inativa por algum tempo.
+ATENÇÃO: A aplicação pode demorar alguns segundos para iniciar (30segundos), pois o servidor onde a API está hospedada a desativa quando fica inativa por algum tempo.
 
 # Rodando a aplicação localmente
 
