@@ -16,7 +16,7 @@ Utilize a barra de pesquisa para encontrar digimons específicos pelo nome. Digi
 
 #### Animações Suaves
 
-Implementação de animações suaves nos cards exibidos que ativam durante a rolagem da página e nos resultados de pesquisa utilizando a biblioteca Framer Motion. Essas animações são projetadas para melhorar a interatividade e a estética da navegação, proporcionando uma experiência visualmente atraente e dinâmica para os usuários.
+Implementação de animações suaves nos cards exibidos que ativam durante o carregamento da página, a rolagem da página e nos resultados de pesquisa utilizando a biblioteca Framer Motion. Essas animações são projetadas para melhorar a interatividade e a estética da navegação, proporcionando uma experiência visualmente atraente e dinâmica para os usuários.
 
 #### Filtro por Nível
 
