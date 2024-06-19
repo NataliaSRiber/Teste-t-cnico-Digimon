@@ -119,13 +119,13 @@ $ npm run start:dev
 
 # Rotas
 
-#### Listagem de Níveis dos Digimons
+#### Listagem de Níveis dos digimons
 
 ##### `GET /digimons/levels`
 
 - Retorna uma lista de todos os níveis dos digimons disponíveis, organizados em ordem alfabética.
 
-#### Busca de Digimons por Nome e Nível
+#### Busca de digimons por Nome e Nível
 
 ##### `GET /digimons?name=&level=`
 
