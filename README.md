@@ -4,7 +4,7 @@
 
 Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre digimons. Com recursos intuitivos, nossa aplicação permite realizar pesquisas personalizadas para encontrar informações sobre digimons.
 
-## Recursos Principais
+# Recursos Principais
 
 #### Barra de Pesquisa
 
@@ -65,7 +65,7 @@ Acesse a aplicação alocada no Vercel por <a href="https://teste-tecnico-digimo
 
 ATENÇÃO: A aplicação pode demorar alguns segundos para iniciar, pois o servidor onde a API está hospedada a desativa quando fica inativa por algum tempo.
 
-## Rodando a aplicação localmente
+# Rodando a aplicação localmente
 
 ### Requisitos
 
@@ -117,34 +117,37 @@ $ npm run start:dev
 ```
 <br>
 
-### Rotas
+# Rotas
 
-```bash 
-/digimons/levels
-```
+#### Listagem de Níveis dos Digimons
 
-Este endpoint traz todos os níveis dos digimons disponíveis em ordem alfabética
+##### `GET /digimons/levels`
 
-```bash 
-/digimons?name=&level= ou exemplo: /digimons?name=agumon&level=rookie
-```
+- Retorna uma lista de todos os níveis dos digimons disponíveis, organizados em ordem alfabética.
 
-Este endpoint traz a informações de todos os digimons listados ou como no exemplo as informações do agumon com o nível rookie
+#### Busca de Digimons por Nome e Nível
 
+##### `GET /digimons?name=&level=`
+
+##### Exemplo: `GET /digimons?name=agumon&level=rookie`
+
+- Retorna informações sobre digimons baseado nos parâmetros fornecidos:
+  - `name`: Nome do digimon (opcional). Se especificado, retorna informações de digimons que correspondem ao nome fornecido.
+  - `level`: Nível do digimon (opcional). Se especificado, retorna informações de digimons que correspondem ao nível fornecido.
 <br>
 
-## Testes
+# Testes
 
-### Front-End 
+### Front-End (Cypress)
 
-No Front-End os testes foram relizados através do cypress e para executa-lo para rodar o comando:
+Os testes de Front-End foram realizados utilizando Cypress. Para executá-los, utilize o seguinte comando:
 
 ```bash
 npx cypress open
 ```
-### Back-End 
+### Back-End (Jest)
 
-No Back-End os testes foram relizados testes e2e utilizando o jestjs
+Os testes de Back-End foram realizados utilizando Jest para testes end-to-end (E2E). Para executá-los, utilize o seguinte comando:
 
 ```bash
 npm run test:e2e
