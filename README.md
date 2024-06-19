@@ -16,7 +16,7 @@ Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. 
 
 #### Animações Suaves
 
-Implementação de animações suaves que ativam conforme o usuário rola a página utilizando a biblioteca Framer Motion. Esse recurso enriquece a experiência do usuário, tornando a navegação mais dinâmica e visualmente atraente.
+Implementação de animações suaves nos cards exibidos que ativam durante a rolagem da página e nos resultados de pesquisa utilizando a biblioteca Framer Motion. Essas animações são projetadas para melhorar a interatividade e a estética da navegação, proporcionando uma experiência visualmente atraente e dinâmica para os usuários.
 
 #### Filtro por Nível
 
