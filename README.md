@@ -1,21 +1,30 @@
 <h1 align="center">Digimon Search</h1>
 
 # Descrição
-Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js, feita especialmente para os fãs de Digimons! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre essas criaturas digitais. Com recursos intuitivos, nossa aplicação permite realizar pesquisas personalizadas para encontrar informações sobre seus Digimons favoritos.
 
-## Recursos Principais:
-Barra de Pesquisa:
-Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do seu Digimon favorito e obtenha informações de forma rápida e fácil.
+Bem-vindo à aplicação responsiva full stack desenvolvida em Next.js e Nest.js! Explore uma experiência interativa de pesquisa que permite descobrir e aprender sobre digimons. Com recursos intuitivos, nossa aplicação permite realizar pesquisas personalizadas para encontrar informações sobre digimons.
 
-Ao clicar na palavra Digimon no canto superior esquerdo, você será redirecionado à página inicial, onde todos os cards dos Digimons são exibidos.
+## Recursos Principais
 
-Ao clicar no botão no canto inferior direito, você volta para o topo da página.
+#### Barra de Pesquisa
 
-## Filtro por Nível
-Explore Digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de Digimons associados a esse nível.
+Utilize nossa barra de pesquisa para encontrar Digimons específicos pelo nome. Digite o nome do digimon e obtenha informações detalhadas sobre ele.
 
-## Pesquisas Personalizadas
-A aplicação oferece a flexibilidade de realizar pesquisas personalizadas, combinando a barra de pesquisa e o filtro por nível. Encontre Digimons que atendam aos seus critérios específicos de maneira eficiente.
+- Redirecionamento para a Página Inicial: Ao clicar na palavra "Digimon" no canto superior esquerdo, você será redirecionado à página inicial, onde todos os cards dos digimons serão exibidos.
+
+- Botão de Voltar ao Topo: Ao clicar no botão no canto inferior direito, você volta rapidamente para o topo da página.
+
+#### Animações Suaves
+
+Implementação de animações suaves que ativam conforme o usuário rola a página utilizando a biblioteca Framer Motion. Esse recurso enriquece a experiência do usuário, tornando a navegação mais dinâmica e visualmente atraente.
+
+#### Filtro por Nível
+
+Explore digimons de diferentes níveis com nosso menu suspenso de seleção. Escolha o nível desejado e veja uma lista específica de digimons associados a esse nível.
+
+#### Pesquisas Personalizadas
+
+A aplicação oferece a flexibilidade de realizar pesquisas personalizadas, combinando a barra de pesquisa e o filtro por nível. Encontre digimons que atendam aos seus critérios específicos de maneira eficiente.
 <br><br>
 
 # Stacks de Desenvolvimento
@@ -52,7 +61,9 @@ A aplicação oferece a flexibilidade de realizar pesquisas personalizadas, comb
 # A aplicação em nuvem
 
 Acesse a aplicação alocada no Vercel por <a href="https://teste-tecnico-digimon.vercel.app/"> aqui<a/>.
-ATENÇÃO: A aplicação deve demorar um tempinho para iniciar.
+<br>
+
+ATENÇÃO: A aplicação pode demorar alguns segundos para iniciar, pois o servidor onde a API está hospedada a desativa quando fica inativa por algum tempo.
 
 ## Rodando a aplicação localmente
 
@@ -63,9 +74,13 @@ Para iniciar é necessário ter instalado na máquina as seguintes ferramentas:
 
 ### Rodando o Front-End 
 
+#### Execute a aplicação em modo de desenvolvimento
+
 ```bash
-# Execute a aplicação em modo de desenvolvimento
-# Ao clonar a aplicação acesse a pasta frontend
+
+# 1 - Ao clonar a aplicação acesse a pasta 'frontend'.
+
+# Execute os seguintes comandos:
 
 $ npm run dev
 
@@ -77,13 +92,16 @@ $ npm run dev
 Primeiramente, é necessário instalar o MySQL Database através deste  <a href="https://dev.mysql.com/downloads/mysql"> link.<a/>
 
 Após a instalação e configuração do mysql:
+
+#### Execute a aplicação em modo de desenvolvimento
+
 ```bash
 
-# Execute a aplicação em modo de desenvolvimento
-# Acesse a pasta backend
-# Configure o arquivo .env com base no .env.template
+# 1 - Acesse a pasta 'backend';
 
-# Exexute os comandos a seguir:
+# 2 - Configure o arquivo '.env 'com base no '.env.template'
+
+# Execute os seguintes comandos:
 
 $ npm install
 
